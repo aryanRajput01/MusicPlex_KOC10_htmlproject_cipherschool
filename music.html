@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible"content="IE=edge">
+        <meta name="viewpoint"content="Width=device-Width,initial-scale=1.0">
+        <title>MusicPlex.com</title>
+        <script src="https://kit.fontawesome.com/12a41c30dd.js"></script>
+        <link rel="icon" type="image" href="Music/icon.png">
+        <link rel="stylesheet"href="music.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="nav-bar">
+            <div class="title-combo">
+                <div class="logo">
+                    <img src="music images/logo/play pause animated.gif" alt="logo">
+                </div>
+                <div class="web-name text-hover">
+                    <h2>Music</h2>
+                    <h5>Plex</h5>
+                </div>
+            </div>
+            <div class="fav">
+                <a href="#">
+                    <h3 class="text-hovar">Favourties</h3>
+                </a>
+            </div>
+            <div class="search-box">
+                <form action="">
+                    <button id="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <input type="text" placeholder="search.." name="search" id="search">
+                    <button id="mic" type="submit"><i class="fas fa-microphone"></i></button>
+                </form>
+            </div>
+            <div class="">
+                <i class="fa-solid fa-ball"></i>
+            </div>
+            <div class="">
+                <i class="fas fa-user-circle"></i>
+            </div>
+        </header>
+        <main>
+            <aside class="aside section-1">
+                <section class="container">
+                    <div class="box">
+                        <img src="music images/banner/banner 1.jfif" height="280px" width="300px" alt="Banner-1">
+                    </div>
+                    <div class="box" style="z-index: 1;">
+                        <img src="music images/banner/banner 2.jfif" height="280px" width="300px" alt="Banner-2">
+                    </div>
+                    <div class="box">
+                        <img src="music images/banner/banner 3.jfif" height="280px" width="300px" alt="Banner-3">
+                    </div>
+                </section>
+                <section class="latest-release">
+                    <h1 class="heading-text">Latest Releases</h1>
+                    <div class="card">
+                        <figure>
+                            <img src="music images/release/life me up.jpg" alt="">
+                            <figcaption class="song-info">
+                                <h2>Lift Me Up</h2>
+                                <p>Oct 28,2022</p>
+                            </figcaption>
+                        </figure>
+                        <div class="options">
+                            <input type="checkbox" id="toggle-btn" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>3:33</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="music images/release/glimpse of us.jfif" alt="">
+                            <figcaption class="song-info">
+                                <h2>Glimpse of Us</h2>
+                                <p>Jun 10,2022</p>
+                            </figcaption>
+                        </figure>
+                        <div class="options">
+                            <input type="checkbox" id="toggle-btn" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>2:34</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="music images/release/anti hero.jfif" alt="">
+                            <figcaption class="song-info">
+                                <h2>Anti Hero</h2>
+                                <p>Oct 21,2022</p>
+                            </figcaption>
+                        </figure>
+                        <div class="options">
+                            <input type="checkbox" id="toggle-btn" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>5:09</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="music images/release/calm down.jpg" alt="">
+                            <figcaption class="song-info">
+                                <h2>Calm Down</h2>
+                                <p>Aug 25,2022</p>
+                            </figcaption>
+                        </figure>
+                        <div class="options">
+                            <input type="checkbox" id="toggle-btn" hidden>
+                            <label><i class="fa-solid fa-ellipsis"></i></label>
+                            <p>2:27</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="popular-artists">
+                    <h1 class="heading-text">Popular Artists</h1>
+                    <div class="popular-artist-content">
+                        <figure>
+                            <a href="">
+                                <img src="music images/Artist/Taylor Swift.jpg" alt="">
+                                <figcaption>Taylor Swift</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/Artist/Harry Styles.png" alt="">
+                                <figcaption>Harry Styles</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/Artist/selena gomez.jpg" alt="">
+                                <figcaption>Selena Gomez</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/Artist/zayn malik.jfif" alt="">
+                                <figcaption>Zayn Malik</figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/Artist/shawn mendes.jfif" alt="">
+                                <figure>Shawn Mendes</figure>
+                            </a>
+                        </figure>
+                    </div>
+                </section>
+                <section class="music-station">
+                    <div class="music-mood">
+                        <figure><a href=""><img src="music images/logo/logo.png" height="100px" width="100px" alt=""><p>Rock</p></a></figure>
+                        <figure><a href=""><img src="music images/logo/logo.png" height="100px" width="100px" alt=""><p>Chill</p></a></figure>
+                        <figure><a href=""><img src="music images/logo/logo.png" height="100px" width="100px" alt=""><p>Love</p></a></figure>
+                        <figure><a href=""><img src="music images/logo/logo.png" height="100px" width="100px" alt=""><p>Pop</p></a></figure>
+                        <figure><a href=""><img src="music images/logo/logo.png" height="100px" width="100px" alt=""><p>Retro</p></a></figure>
+                    </div>
+                </section>
+                <section class="b-music-station">
+                    <figure>
+                        <a href="">
+                            <img src="music images/music station/road.jfif" height="100px" width="100px" alt="Road Party">
+                            <p>Road Party</p>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <img src="music images/music station/party.jfif" height="100px" width="100px" alt="Party">
+                            <p>Party</p>
+                        </a>
+                    </figure>
+                    <figure>
+                        <a href="">
+                            <img src="music images/music station/electronic.jfif" height="100px" width="100px" alt="Electronic">
+                            <p>Electronic</p>
+                        </a>
+                    </figure>
+                </section>
+                <section class="latest-songs" id="latest-english">
+                    <h1 class="heading-text">English Songs</h1>
+                    <div class="latest-song-div">
+                        <figure>
+                            <a href="">
+                                <img src="music images/english songs/faded.jpg" alt="">
+                                <figcaption class="">
+                                    <h5>Faded</h5>
+                                    <h6>Dec 4,2015</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/english songs/blinding lights.jpg" alt="">
+                                <figcaption class="">
+                                    <h5>Blinding Lights</h5>
+                                    <h6>Jan 21,2020</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/english songs/havana.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Havana</h5>
+                                    <h6>Oct 24,2017</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/english songs/blank space.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Blank Space</h5>
+                                    <h6>Nov 10,2014</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/english songs/montero.jpg" alt="">
+                                <figcaption class="">
+                                    <h5>Montero</h5>
+                                    <h6>Mar 26,2021</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </section>
+                <section class="latest-songs" id="latest-hindi">
+                    <h1 class="heading-text">Hindi Songs</h1>
+                    <div class="latest-song-div">
+                        <figure>
+                            <a href="">
+                                <img src="music images/hindi songs/bad boy.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Bad Boy</h5>
+                                    <h6>Aug 19,2019</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/hindi songs/lut gaye.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Lut Gaye</h5>
+                                    <h6>Feb 17,2021</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/hindi songs/humnava mere.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Humnava Mere</h5>
+                                    <h6>May 23,2018</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/hindi songs/kesariya.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Kesariya</h5>
+                                    <h6>Jul 17,2022</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                        <figure>
+                            <a href="">
+                                <img src="music images/hindi songs/manike.jfif" alt="">
+                                <figcaption class="">
+                                    <h5>Manike</h5>
+                                    <h6>Aug 30,2022</h6>
+                                </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                </section>
+            </aside>
+            <aside class="aside section-2">
+                <h1 class="heading-text inline">Playlist</h1>
+                <h3 class="inline right">Queue</h3>
+                <div class="playlist">
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>01</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/Girls like you.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Girls Like You</div>
+                                    <p>Maroon 5</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>02</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/The lazy song.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>The Lazy Song</div>
+                                    <p>Bruno Mars</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>03</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/unstoppable sia.png" alt="">
+                                </div>
+                                <div>
+                                    <div>Unstoppable</div>
+                                    <p>Sia</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>04</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/treat you better.jfif" alt="">
+                                </div>
+                                <div>
+                                    <div>Treat You Better</div>
+                                    <p>Shawn Mendes</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>05</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/dusk till dawn.jpg" alt="">
+                                </div>
+                                <div>
+                                    <div>Dust Till Dawn</div>
+                                    <p>Zayn & Sia</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>06</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/crowded room.jfif" alt="">
+                                </div>
+                                <div>
+                                    <div>Crowded Room</div>
+                                    <p>Selena Gomez</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>07</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/sad.jfif" alt="">
+                                </div>
+                                <div>
+                                    <div>Hope</div>
+                                    <p>XXXTentacion</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="playlist-item">
+                        <div class="playlist-content">
+                            <div class="content-left">
+                                <div style="margin-right: 4px;"><h2>08</h2></div>
+                                <div class="coverer">
+                                    <img class="small-img inline-block" src="music images/Playlist/heat waves.jfif" alt="">
+                                </div>
+                                <div>
+                                    <div>Heat Waves</div>
+                                    <p>Glass Animals</p>
+                                </div>
+                            </div>
+                            <div class="content-right">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </body>
+</html>
